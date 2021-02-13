@@ -1,33 +1,54 @@
-body{
-	background-color:lightgray;
-}
-.container{
-	//
-}
-#banner{
-	//
-}
-#commando{
-	//
-}
-#griepvaccin{
-	//
-}
-#lab-opdracht{
-	//
-}
-#max-verstappen{
-	//
+#container{
+	width: 1000px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto;
 }
 #menu{
-	//
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+#banner{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#commando{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+#max-verstappen{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 5;
 }
 #net-binnen{
-	//
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+#griepvaccin{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 #schandaal{
-	//
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 #zonovergoten{
-	//
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
