@@ -1,54 +1,35 @@
 #container{
+	margin: auto;
 	width: 1000px;
 	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-template-rows: auto auto auto auto auto;
+	grid-template-areas: 
+	'menu menu menu menu menu'
+	'banner banner banner banner banner'
+	'commando commando max binnen binnen'
+	'commando commando max binnen binnen'
+	'griep zon schandaal binnen binnen'
 }
 #menu{
-	grid-column-start: 1;
-	grid-column-end: 5;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-area: menu;
 }
 #banner{
-	grid-column-start: 1;
-	grid-column-end: 5;
-	grid-row-start: 2;
-	grid-row-end: 3;
+	grid-area: banner;
 }
 #commando{
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 5;
+	grid-area: commando;
 }
 #max-verstappen{
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 3;
-	grid-row-end: 5;
+	grid-area: max;
 }
 #net-binnen{
-	grid-column-start: 4;
-	grid-column-end: 5;
-	grid-row-start: 3;
-	grid-row-end: 6;
+	grid-area: binnen;
 }
 #griepvaccin{
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 5;
-	grid-row-end: 6;
+	grid-area: griep;
 }
 #schandaal{
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 5;
-	grid-row-end: 6;
+	grid-area: schandaal;
 }
 #zonovergoten{
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 5;
-	grid-row-end: 6;
+	grid-area: zon;
 }
